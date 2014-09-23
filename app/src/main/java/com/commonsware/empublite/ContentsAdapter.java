@@ -13,11 +13,11 @@ public class ContentsAdapter extends FragmentStatePagerAdapter {
 
   @Override
   public Fragment getItem(int position) {
-
+    return null;
   }
 
   @Override
   public int getCount() {
-    return(contents.getChapterCount());
+    return 0;
   }
 }
